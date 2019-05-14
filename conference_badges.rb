@@ -4,5 +4,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  return array.concat(badge_maker(name))
+  return attendees.concat(badge_maker(name))
 end
